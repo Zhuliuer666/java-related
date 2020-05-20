@@ -7,13 +7,13 @@ you can start the service via "java -Dserver.port=8501/8502 -jar serviceProducer
  the producer has exposed one endpoint "/hello"  which would 
  return its service name and port
  
- #consumer
+#consumer
  1)use "mvn clean install" to build project
  2)java -jar source.jar(which would be in targer folder)
  its default port is 8503, one endpoint is "/hello" which would 
  call producer
  
- #consul
+#consul
  for your local set up, please refer to [consul](https://learn.hashicorp.com/consul/getting-started/install)
  <br>
  
